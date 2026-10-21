@@ -6,7 +6,7 @@ public class RotateCamera : MonoBehaviour
     public float rotationSpeed = 150f;
     private InputSystem_Actions controls;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         controls = new InputSystem_Actions();
     }
